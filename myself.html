@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Portfolio</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f7c87c;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            width: 100%;
+            margin: auto;
+            background-color :();
+            padding: 30px;
+        }
+        .card {
+            background-color: rgb(57, 68, 52);
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 20px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+
+
+
+
+
+.card:hover {
+    transform: translateY(-10px);
+    transition: 0.3s;
+}
+
+  
+
+        h1 {
+            text-align: center;
+            font-size: 70px;
+            font-family: castellar;
+            color: #e672d6f9;
+        }
+
+        h2 {
+            color: #df66bd;
+            font-family : algerian; 
+        }
+
+        p {
+            font-size: 16px;
+            font-family: lucida calligraphy;
+            line-height: 1.6;
+            color:rgb(225, 108, 198)
+        }
+
+        ul {
+            list-style-type: square;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 20px;
+            color: rgb(225, 88, 172);
+        }
+    </style>
+</head>
+
+<body>
+    <audio id="audio">
+        <source src="https://audio.com/embed/audio/in-the-good-old-summer-time-1902  type ="audio/mpeg">
+    </audio>
+    <button id="audiobtn" onclick="toggleAudio()"> play</button>
+
+    <script>
+        function toggleAudio(){
+            var audio = document.getElementById("audio");
+            var btn = document.getElementById("audioBtn");
+
+            if (audio.paused){
+                audio.play()
+                btn.innerText = "pause";
+            }
+            else 
+            audio.pause();
+        btn.innerText = "PLAY";
+        }
+    </script>
+
+
+
+    <div class="container">
+        
+
+        <h1>About Me</h1>
+ <div class ="card">
+        <p>
+            Hello! My name is <b>SWANANDI MANE</b>.  
+            I am a first year BTech student and I am learning web development. Web development holds my interesets 
+            This is my first portfolio webpage created using HTML and CSS.
+        i am still developing my skills and i hope to move further with this </p>
+</div>
+<div class ="card">
+   
+        <h2>Education</h2>
+        <p>
+            Bachelor of Technology (BTech)<br>
+            Branch: Computer Science /  Data Science<br>
+            ITM Skills university (Kharghar)
+        </p>
+        </div>
+<div class ="card">
+        <h2>Skills</h2>
+        <style> 
+           ul{
+            color : rgb(225, 73, 144) ;
+            font-family :lucida calligraphy;
+           } 
+        </style>
+        <ul>
+            <li>Python</li>
+            <li>Basic C++</li>
+            <li>HTML</li>
+            <li>CSS (Basics)</li>
+        </ul>
+        </div>
+<div class ="card">
+        <h2>Hobbies</h2>
+        <style>
+            ul{
+              color:  rgb(225, 130, 202);
+               font-family :lucida calligraphy;
+            }
+        </style>
+        <ul>
+            <li>Listening to music , it keeps me in the work flow </li>
+            <li>Learning new technologies</li>
+            <li>Dancing, which feels like a therpay to me</li>
+        </ul>
+    </div>
+<div class ="card">
+        <h2>Contact</h2>
+        <p>
+            Email: swanandimane57@gmail.com <br>
+            Phone: 8291609626
+        </p>
+        </div>
+        <div class = "form-container">
+    <form >
+        <label for =" name "> Full name *</label><br>
+        <input type = "text" id="name" required placeholder=" Enter your name"><br><br>
+
+        <label for ="email" value="xyz@gmail.com">Email *</label><br><br>
+        <input type ="email" id="email" required placeholder="Enter your email"><br><br>
+
+         <label for="mobile"> mobile number*</label><br><br>
+        <input type ="tel" id="mobile" pattern=[0-9]{10} placeholder="enter mobile number" ><br><br>
+
+   <input type="submit" value="Register"><br><br>
+       </form>
+    </div>
+
+        <footer>
+            <p>©️ 2026 My Portfolio</p>
+        </footer>
+        <iframe
+  width="315"
+  height="560"
+  src="https://www.youtube.com/embed/SfGX-YZiQ2M"
+  frameborder="0"
+  allowfullscreen>
+</iframe>
+
+<p>
+  If video doesn't play,
+  <a href="https://www.youtube.com/shorts/SfGX-YZiQ2M" target="_blank">
+    watch on YouTube
+  </a>
+</p>
+
+
+    </div>
+    </div>
+
+</body>
+</html>
