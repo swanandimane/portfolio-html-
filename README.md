@@ -1,4 +1,4 @@
-# 🧑‍💻 Akshay Sharma | Portfolio
+# 🧑‍💻 SWANANDI MANE| Portfolio
 
 > *First Year BTech Student | Aspiring Web Developer*
 
@@ -83,4 +83,4 @@ flowchart TD
 ---
 
 > *Built with HTML & CSS only — no frameworks* 💪  
-> © 2026 Akshay Sharma
+> © 2026 swanandi mane 
